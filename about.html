@@ -11,27 +11,125 @@
 <body>
   <header>
     <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About Me</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="goals.html">Personal and Career Goals</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
+      <div class="logo-container">
+        <a href="index.html"><img src="img/logo_white.png" alt="logo"></a>
+      </div>
+      <div class = "navigation-container">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Me</a></li>
+          <!-- <li><a href="projects.html">Projects</a></li>
+          <li><a href="goals.html">Personal and Career Goals</a></li> -->
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
     </nav>
   </header>
 
-  <main>
-    <section id="about">
+  <section class="about">
+    <div class="container">
       <h1>About Me</h1>
-      <p>This is some information about me and my background.</p>
-    </section>
-  </main>
+      <p>Proficient in software engineering, full stack development, and data analytics.</p>
+    </div>
+  </section>
+  <section class="why">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>As a computer engineer, I combine technical expertise with business acumen, delivering innovative technology solutions for business success. I excel as a creative problem-solver, dedicated to meeting every challenge.</p>
+      <p>Working with me means personalized attention and a commitment to your success. I listen to your needs, understand your goals, and deliver customized solutions that drive your business forward.</p>
+      <img src="img/office.jpg" alt="office">
+      <p>If you seek a computer engineer to leverage technology's power and propel your business forward, I'd be honored to collaborate with you. <a href="contact.html">Reach out to me</a> today for further details.</p>
+    </div>
+  </section>
+
+  <section class="sec-core-experience">
+    <div class="container">
+      <h2>Past experience & employment history</h2>
+      <div class="company-info">
+        <div class="companies">
+          <div class="card">
+            <h3>Area Manager, Amazon., Beaumont, CA, 05/2022-Present</h3>
+            <h4>Responsibilities:</h4>
+            <p>As an Area Manager at Amazon, I lead a team of 78+ direct reports and 20-200 associates in Southern California, focusing on order fulfillment. I define and execute performance objectives, quality control goals, and productivity plans, while maintaining strict compliance with safety and OSHA regulations. My efforts resulted in achieving top ratings in leadership, recognition as "Best of California Prime 2022," and a "Top Tier" rating in Amazon OLR.</p>
+          </div>
+          <div class="card">
+            <h3>Fulfillment Associate, Amazon., Rialto, CA, 02/2022-05/2022</h3>
+            <h4>Responsibilities:</h4>
+            <p>Promoted to area management 2 days after graduation by exceeding all order accuracy and quality control objectives</p>
+          </div>
+          <div class="card">
+            <h3>Student Assistant - Verizon Innovative Learning Program, CSUSB., San Bernardino, CA, 09/2021-05/2022</h3>
+            <h4>Responsibilities:</h4>
+            <p>As a Student Assistant in the Verizon Innovative Learning Program at CSUSB, I mentored middle school students through in-person and virtual sessions on the Chronus Mentoring Software platform. Collaborating with the program director, I monitored progress, organized events for 25+ students, and contributed to their growth and development.</p>
+          </div>
+          <div class="card">
+            <h3>Student Assistant - Early Teaching Experiences in Math and Science, CSUSB., San Bernardino, CA, 12/2019-12/2021</h3>
+            <h4>Responsibilities:</h4>
+            <p>Worked alongside an advisor to create and teach a K-12 computer science lesson focused on Python by leveraging classroom-based observations and insights to develop STEM-focused content for classes of 25-30 students.</p>
+          </div>
+        </div>
+        <div class="photo">
+          <img src="img/profile_picture.png" alt="Me">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec-professional-accomplishments">
+    <div class="container">
+      <h2>A few of my projects</h2>
+      <div class="accomplishments">
+        <div class="item">
+          <img src="img/BioFit_Logo1.png" alt="achievement">
+          <p>Developed a mobile heartbeat monitor <a href="https://github.com/chrisdk95/BioFit" target="_blank">(BioFit)</a> with frontend components and buttons that enabled users to log in, sign-up, view their profiles, calculate user BMI, and record sleep, calorie, intake, and exercise using Swift 4, XCode 12, and Firebase.</p>
+        </div>
+        <div class="item">
+          <img src="img/art_history.jpg" alt="achievement">
+          <p><a href="https://github.com/chrisdk95/CSE-4610" target="_blank">Built</a> a database system with dynamic file management for art history records using C++, shell scripting, and Visual Studio.</p>
+        </div>
+        <div class="item">
+          <img src="img/matchmaker-layout.png" alt="Startup Matchmaker">
+          <p>HTML/CSS/Flexbox <a href="https://github.com/chrisdk95/02_homework_startup_matchmaker" target="_blank">practice</a></p>
+        </div>
+        <div class="item">
+          <img src="img/trulia.png" alt="Trulia rebuild">
+          <p>HTML/CSS/Flexbox <a href="https://github.com/chrisdk95/03_homework_trulia" target="_blank">practice</a></p>
+        </div>
+        <div class="item">
+          <img src="img/slack.jpg" alt="Slack navbar">
+          <p>HTML/CSS/Javascript <a href="https://github.com/chrisdk95/05_homework_slack_navbar" target="_blank">practice</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <footer>
-    <p>&copy; 2023 Christopher Dike</p>
+    <div class="footer-container">
+      <div class="footer-col">
+        <img src="img/logo_white.png" alt="Logo">
+        <p>Equipped with a solid tech foundation, I'm ready to help enhance your systems and drive success.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Contact options</h4>
+        <p>Email me: <a href="mailto:chrisdike95@gmail.com">Christopher Dike</a></p>
+        <p>Call me: <a href="tel:+19094705847">+ 1 (909) 470-5847</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/christopherdike/" target="_blank">Christopher Dike</a></p>
+        <p>GitHub: <a href="https://github.com/chrisdk95" target="_blank">Christopher Dike</a></p>
+      </div>
+      <div class="footer-col">
+        <h4>Sitemap</h4>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <!-- <li><a href="projects.html">Projects</a></li>
+            <li><a href="goals.html">Personal and Career Goals</a></li> -->
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div class="bottombar">Copyright © 2023 Christopher Dike. All rights reserved</div>
   </footer>
-
-  
 </body>
 </html>
