@@ -480,12 +480,12 @@ html, body {
   }
 
   .about .container h1 {
-    color: rgba(255, 255, 255, 0.5);
+    color: greenyellow;
     text-transform: capitalize;
   }
   
   .about .container p {
-    color: #FFFFFF;
+    color: greenyellow;
     font-size: 1.225rem;
     max-width: 800px;
     background-color: rgba(0, 0, 0, 0.4);
