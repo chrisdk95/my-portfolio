@@ -267,7 +267,7 @@ html, body {
   } */
 
   .sec-intro {
-    color: greenyellow;
+    color: black;
     background-color: #c7c7c7;
     background-image: url(../img/computer.jpg);
     background-position: top left;
@@ -480,12 +480,12 @@ html, body {
   }
 
   .about .container h1 {
-    color: greenyellow;
+    color: black;
     text-transform: capitalize;
   }
   
   .about .container p {
-    color: greenyellow;
+    color: black;
     font-size: 1.225rem;
     max-width: 800px;
     background-color: rgba(0, 0, 0, 0.4);
